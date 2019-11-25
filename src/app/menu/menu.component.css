@@ -1,0 +1,9 @@
+ul{
+    clear:both;
+    display:block;
+    content:"";
+}
+li{
+    float:left;
+    margin-right:10px;
+}
