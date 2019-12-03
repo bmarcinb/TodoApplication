@@ -67,6 +67,10 @@ this.todoService.retrieveAllTodos('marcin').subscribe(
       this.router.navigate(['todos', id])
   }
 
+  addTodo(){
+    this.router.navigate(['todos', -1])
+  }
+
 
 }
 
